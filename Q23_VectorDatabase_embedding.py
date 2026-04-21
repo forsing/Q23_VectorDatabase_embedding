@@ -72,7 +72,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+CSV_PATH = Path("/data/loto7hh_4600_k31.csv")
 N_NUMBERS = 7
 N_MAX = 39
 
@@ -323,7 +323,7 @@ BEST hparam: nq= 5 | m (idx aux): 1 | D = 2^m (dokumenata): 2 | L (query window)
   d= 0  P(idx=d | anc=0) = 0.499445
   d= 1  P(idx=d | anc=0) = 0.500555
 --- glavna predikcija (QVDB post-select anc=0, marginala emb) ---
-predikcija NEXT: (7, 9, 19, 21, 24, 27, 28)
+predikcija NEXT: (7, 9, x, y, z, 27, 28)
 """
 
 
